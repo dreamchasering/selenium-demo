@@ -1,4 +1,4 @@
-#常用鼠标键盘事件
+#常用鼠标键盘操作
 
 from selenium import webdriver
 
