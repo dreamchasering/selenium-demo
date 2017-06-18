@@ -20,7 +20,7 @@ print(now_url)
 driver.find_element_by_id("username").clear()
 driver.find_element_by_id("username").send_keys("dreamchasering")
 driver.find_element_by_id("password").clear()
-driver.find_element_by_id("password").send_keys("liuheng0824")
+driver.find_element_by_id("password").send_keys("123456")
 driver.find_element_by_class_name("logging").click()
 time.sleep(5)
 
