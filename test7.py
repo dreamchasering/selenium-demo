@@ -1,4 +1,5 @@
 #获得验证信息
+#我们可以把登陆之后的这些信息存放起来，作为登陆是否成功的验证信息
 from selenium import webdriver
 import time
 
