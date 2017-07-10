@@ -10,9 +10,9 @@ driver.get("http://www.acmcoder.com/index")
 driver.find_element_by_xpath("//div[@class='header_right']/p/a[@href='/login']").click()
 
 driver.find_element_by_id("phone_ipt").clear()
-driver.find_element_by_id("phone_ipt").send_keys("15927265653")
+driver.find_element_by_id("phone_ipt").send_keys("name")
 driver.find_element_by_id("pwd_ipt").clear()
-driver.find_element_by_id("pwd_ipt").send_keys("liuheng0824")
+driver.find_element_by_id("pwd_ipt").send_keys("password")
 driver.find_element_by_id("sbtn").click()
 
 #退出
